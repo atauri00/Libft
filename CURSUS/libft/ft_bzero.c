@@ -4,15 +4,20 @@
 
 void	*ft_memset(void *str, int c, size_t n)
 {
-	int i;
+  int i;
 
-	i = 0;
+  i = 0;
 	while (i < n)
 	{
 		((unsigned char *)str)[i] = c;
-		i++;
+    i++;
 	}
 	return (str);
+}
+
+void ft_bzero(void *str, int n)
+{
+  ft_memset(str, '\0', n);
 }
 
 int	main(void)
@@ -21,7 +26,8 @@ int	main(void)
 
 	strcpy(str, "This is string.h library function");
 	puts(str);
-	ft_memset(str, '$', 7);
+	ft_bzero(str, 7);
 	puts(str);
+	puts("al");
 	return (0);
 }
