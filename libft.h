@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42.fr>          +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/22 15:02:16 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/10/05 13:28:09 by adiaz-de         ###   ########.Urdlz    */
+/*   Updated: 2021/10/13 14:32:20 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,5 +54,10 @@ void				*ft_calloc(size_t count, size_t size);
 char				*ft_strdup(const char *s1);
 char				*ft_substr(char const *s, unsigned int start, size_t len);
 char				*ft_strjoin(char const *s1, char const *s2);
+char				*ft_strtrim(char const *s1, char const *set);
+char                *ft_strmapi(char const *s, char (*f)(unsigned int, char));
+void	            ft_striteri(char *s, void (*f)(unsigned int, char*));
+void	            ft_putchar_fd(char c, int fd);
+void	            ft_putstr_fd(char *s, int fd);
 
 #endif
