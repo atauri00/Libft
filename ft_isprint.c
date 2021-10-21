@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42.fr>          +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/22 17:03:57 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/08/15 14:41:29 by adiaz-de         ###   ########.Urdlz    */
+/*   Created: 2021/10/20 17:12:43 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 17:33:57 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_isprint(int c)
 {
@@ -18,13 +16,3 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
-
-/*
-int	main(void)
-{
-	printf ("valor 1: %d\n", ft_isprint('1'));
-	printf ("valor 2: %d\n", ft_isprint(' '));
-	printf ("valor 3: %d\n", ft_isprint(32));
-	return (0);
-}
-*/

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcat.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/09/22 19:47:18 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/09/22 20:03:02 by adiaz-de         ###   ########.Urdlz    */
+/*   Created: 2021/10/20 17:54:05 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 17:54:52 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stddef.h>
 
 size_t	ft_strlcat(char *dest, const char *src, size_t n)
 {
@@ -37,4 +37,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t n)
 	dest[y + z] = '\0';
 	return (x + y);
 }
-

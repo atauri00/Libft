@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/09/24 12:29:32 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/09/24 12:29:58 by adiaz-de         ###   ########.Urdlz    */
+/*   Created: 2021/10/20 17:55:45 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 17:56:07 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_toupper(int c)
 {

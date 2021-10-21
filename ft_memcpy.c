@@ -6,11 +6,11 @@
 /*   By: adiaz-de <adiaz-de@student.42urduliz.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/31 16:48:06 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/09/22 17:49:47 by adiaz-de         ###   ########.Urdlz    */
+/*   Updated: 2021/10/20 17:43:59 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stddef.h>
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)
 {

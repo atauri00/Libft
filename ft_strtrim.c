@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/05 15:11:10 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/10/05 19:18:20 by adiaz-de         ###   ########.Urdlz    */
+/*   Created: 2021/10/20 18:14:49 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 18:15:01 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strtrim(char const *s1, char const *set)
+char	*ft_strtrim(char const *s1, char const *set)
 {
 	size_t	len;
 

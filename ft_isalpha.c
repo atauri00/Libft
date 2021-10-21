@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42.fr>          +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/22 09:41:38 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/07/22 18:05:48 by adiaz-de         ###   ########.fr       */
+/*   Created: 2021/10/20 17:06:28 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 17:31:13 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_isalpha(int c)
 {

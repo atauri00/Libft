@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strputchar_fd.c                                 :+:      :+:    :+:   */
+/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42urduliz.co    +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/13 14:05:46 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/10/13 14:05:46 by adiaz-de         ###   ########.fr       */
+/*   Created: 2021/10/20 18:22:58 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 18:23:43 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <unistd.h>
 
 void	ft_putchar_fd(char c, int fd)
 {

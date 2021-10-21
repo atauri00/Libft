@@ -3,21 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/09/24 18:29:41 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/09/24 18:41:29 by adiaz-de         ###   ########.Urdlz    */
+/*   Created: 2021/10/20 18:08:03 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 18:08:38 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
-void *ft_calloc(size_t count, size_t size)
+void	*ft_calloc(size_t count, size_t size)
 {
 	void	*ptr;
 
 	ptr = malloc(count * size);
-
 	if (ptr != NULL)
 	{
 		ft_bzero(ptr, count * size);

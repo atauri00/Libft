@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/19 13:16:31 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/08/19 13:43:32 by adiaz-de         ###   ########.Urdlz    */
+/*   Created: 2021/10/20 17:44:40 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 17:48:28 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stddef.h>
 
-unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
+size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 {
 	unsigned int	count;
 	unsigned int	index;

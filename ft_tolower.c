@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/09/24 12:29:32 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/09/24 12:45:57 by adiaz-de         ###   ########.Urdlz    */
+/*   Created: 2021/10/20 17:56:25 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 17:56:35 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 int	ft_tolower(int c)
 {

@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putendl_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42urduliz.co    +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/15 11:16:05 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/10/15 11:16:05 by adiaz-de         ###   ########.fr       */
+/*   Created: 2021/10/20 18:25:15 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 18:25:26 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "libft.h"
 

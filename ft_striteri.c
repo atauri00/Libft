@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42urduliz.co    +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/13 13:45:41 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/10/13 13:45:41 by adiaz-de         ###   ########.fr       */
+/*   Created: 2021/10/20 18:20:21 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 18:21:52 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include <stdlib.h>
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {

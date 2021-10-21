@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42.fr>          +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/22 12:59:02 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/08/14 14:12:21 by adiaz-de         ###   ########.Urdlz    */
+/*   Created: 2021/10/20 17:10:01 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 17:33:03 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,3 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-
-/*int	main(void)
-{
-	printf ("valor 1: %d\n", ft_isalnum('d'));
-	printf ("valor 2: %d\n", ft_isalnum('2'));
-	printf ("valor 3: %d\n", ft_isalnum('\t'));
-	printf ("valor 4: %d\n", ft_isalnum(' '));
-	return (0);
-}*/

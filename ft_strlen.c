@@ -3,20 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42.fr>          +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/22 18:48:27 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/08/15 14:44:30 by adiaz-de         ###   ########.Urdlz    */
+/*   Created: 2021/10/20 17:13:46 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 17:34:38 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-#include <stdio.h>
-#include <string.h>
 #include <stddef.h>
 
 size_t	ft_strlen(const char *str)
-	{
+{
 	int	i;
 
 	i = 0;
@@ -26,16 +23,3 @@ size_t	ft_strlen(const char *str)
 	}
 	return (i);
 }
-
-/*
-int	main(void)
-{
-	char	str[50];
-	int		len;
-
-	strcpy(str, "PUTAKASKA");
-	len = ft_strlen(str);
-	printf("Length of |%s| is |%d|\n", str, len);
-	return (0);
-}
-*/

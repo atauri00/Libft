@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42.fr>          +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/22 15:42:31 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/08/15 14:37:59 by adiaz-de         ###   ########.Urdlz    */
+/*   Created: 2021/10/20 17:11:26 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 17:33:27 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_isascii(int c)
 {
@@ -18,13 +16,3 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
-
-/*
-int	main(void)
-{
-	printf ("valor 1: %d\n", ft_isascii('1'));
-	printf ("valor 2: %d\n", ft_isascii(' '));
-	printf ("valor 3: %d\n", ft_isascii(128));
-	return (0);
-}
-*/

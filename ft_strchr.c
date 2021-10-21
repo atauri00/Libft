@@ -3,21 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/09/24 12:47:08 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/09/24 14:00:49 by adiaz-de         ###   ########.Urdlz    */
+/*   Created: 2021/10/20 17:57:03 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 17:57:36 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "libft.h"
 
 char	*ft_strchr(const char *s, int c)
 {	
 	while (*s != (char)c)
 	{
 		if (!*s)
-			return(0);
+			return (0);
 		s++;
 	}
 	return ((char *)s);

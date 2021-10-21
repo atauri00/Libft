@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42urduliz.co    +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/10/13 13:38:52 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/10/13 13:38:52 by adiaz-de         ###   ########.fr       */
+/*   Created: 2021/10/20 18:19:09 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 18:19:51 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))

@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adiaz-de <adiaz-de@student.42urduliz.com>  +#+  +:+       +#+        */
+/*   By: adiaz-de <adiaz-de@student.42urduli>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/15 15:36:50 by adiaz-de          #+#    #+#             */
-/*   Updated: 2021/08/15 15:38:13 by adiaz-de         ###   ########.Urdlz    */
+/*   Created: 2021/10/20 17:19:27 by adiaz-de          #+#    #+#             */
+/*   Updated: 2021/10/20 17:22:38 by adiaz-de         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <string.h>
+#include <stddef.h>
 
 void	*ft_memset(void *str, int c, size_t n)
 {
@@ -25,16 +24,3 @@ void	*ft_memset(void *str, int c, size_t n)
 	}
 	return (str);
 }
-
-/*
-int	main(void)
-{
-	char	str[50];
-
-	strcpy(str, "This is string.h library function");
-	puts(str);
-	ft_memset(str, '$', 7);
-	puts(str);
-	return (0);
-}
-*/
